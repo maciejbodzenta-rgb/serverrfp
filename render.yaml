@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: secure-rfp-portal
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: 0x4AAAAAAFrVaIJdkuxhUm74
+        sync: false 
+      - key: 0x4AAAAAAFrVaBGtq85ZnOCNx1GAxzeEvZA
+        sync: false 
